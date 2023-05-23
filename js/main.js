@@ -38,6 +38,9 @@ $(document).ready(function () {
         loop: true,
         margin: 10,
         responsiveClass: true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
         responsive: {
             0: {
                 items: 1,
@@ -50,7 +53,7 @@ $(document).ready(function () {
             1000: {
                 items: 3,
                 nav: false,
-                loop: false
+                loop: true
             }
         }
     })
